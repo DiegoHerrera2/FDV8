@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MakeInvisible : MonoBehaviour
+public class MakeVisible : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 
@@ -17,7 +17,7 @@ public class MakeInvisible : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 }

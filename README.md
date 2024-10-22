@@ -97,7 +97,7 @@ Script: [ActivateSimulation](scripts/ActivateSimulation.cs)
 - Plataformas invisibles que se vuelven visibles
 - Mecánica de recolección
 
-Scripts: [PlayerMovement](scripts/PlayerMovement.cs), [PointToPoint](scripts/PointToPoint.cs) , [Collectable](scripts/Collectable.cs), [MakeInvisible](scripts/MakeInvisible.cs)
+Scripts: [PlayerMovement](scripts/PlayerMovement.cs), [PointToPoint](scripts/PointToPoint.cs) , [Collectable](scripts/Collectable.cs), [MakeVisible](scripts/MakeVisible.cs)
 
 ![E5](img/E5.gif)
 
